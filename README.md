@@ -1,12 +1,11 @@
 IP Filter: A light-weight IP address based filtering system
 =================================================================================
 
+For now, it's personnal package ...
 This package provides easy IP based access control. This can be achieved either by blacklisting certain IPs and whitelisting all others, or whitelisting certain IPs and blacklisting all others.
 
-[![Build Status](https://secure.travis-ci.org/Dwolla/node-ipfilter.png?branch=master)](http://travis-ci.org/Dwolla/node-ipfilter)
-
 ## Version
-0.0.4
+0.0.18
 
 ## Requirements
 - [Node](http://github.com/ry/node)
@@ -15,45 +14,16 @@ This package provides easy IP based access control. This can be achieved either 
 
 Recommended installation is with npm. To add node-ipfilter to your project, do:
 
-    npm install ipfilter
+    npm install custom-express-ipfilter
 
 ## Usage with Express
 
-Blacklisting certain IP addresses, while allowing all other IPs:
-
-```javascript
-// Init dependencies
-var express = require('express')
-    , ipfilter = require('ipfilter')
-    , app = express.createServer()
-    ;
-
-// Blacklist the following IPs
-var ips = ['127.0.0.1'];
-
-// Create the server
-app.use(ipfilter(ips));
-app.listen(3000);
-```
-
-Whitelisting certain IP addresses, while denying all other IPs:
-
-```javascript
-// Init dependencies
-var express = require('express')
-    , ipfilter = require('ipfilter')
-    , app = express.createServer()
-    ;
-
-// Blacklist the following IPs
-var ips = ['127.0.0.1'];
-
-// Create the server
-app.use(ipfilter(ips, {mode: 'allow'}));
-app.listen(3000);
-```
+For now, nothing. That will come ...
 
 ## Changelog
+
+0.0.18
+* Add view system with options view and viewData
 
 0.0.4
 
@@ -67,7 +37,7 @@ app.listen(3000);
 
 ## Credits
 
-Michael Schonfeld &lt;michael@dwolla.com&gt;
+Bastien VINH &lt;bus.bvinh@gmail.com&gt;
 
 ## License 
 

@@ -1,5 +1,5 @@
 {
-  "name": "ipfilter",
+  "name": "express-ipfilter",
   "description": "A light-weight IP address based filtering system",
   "version": "0.0.5",
   "author": "Bastien VINH <bastienvinh@gnail.com",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/bastienvinh/node-ipfilter.git"
+    "url": "git://github.com/bastienvinh/node-ipfilter.git"
   },
   "main": "index.js",
   "scripts": {

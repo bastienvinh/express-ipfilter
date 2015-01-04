@@ -1,5 +1,5 @@
 {
-  "name": "express-ipfilter",
+  "name": "custom-express-ipfilter",
   "description": "A light-weight IP address based filtering system",
   "version": "0.0.5",
   "author": "Bastien VINH <bastienvinh@gnail.com",

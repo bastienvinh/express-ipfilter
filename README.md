@@ -22,6 +22,9 @@ For now, nothing. That will come ...
 
 ## Changelog
 
+0.0.21
+* Add underscore dependency
+
 0.0.18
 * Add view system with options view and viewData
 
